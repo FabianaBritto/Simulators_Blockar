@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &246286537946729611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8757881929340744587}
+  - component: {fileID: 7820896742701208463}
+  m_Layer: 0
+  m_Name: AudioMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8757881929340744587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246286537946729611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7820896742701208463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246286537946729611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1631d6bc7c4a7f24d8de5a739eebb5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonCancel
+    clip: {fileID: 8300000, guid: ade2626a7bb73074796289ba5bde9a0b, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: f0769adfc9438e945a986affb9c52ef7, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonConfirm
+    clip: {fileID: 8300000, guid: f7c28aa8e25320c4aa4967ec35ab8cc6, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonHover
+    clip: {fileID: 8300000, guid: 73dbd6358abf93e48b933d12c92e4fa8, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Delete Blocks
+    clip: {fileID: 8300000, guid: aae6fdf9d98076e48b8d55689fe51470, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Victory
+    clip: {fileID: 8300000, guid: 76e40db952f5b954cb16f77fc3380d1d, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hit Blocks 1
+    clip: {fileID: 8300000, guid: 36c39a5683f348b43a5284cc20d4d66f, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hit Blocks 2
+    clip: {fileID: 8300000, guid: ef441387dad006f4f8822a61899bd6cc, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pull Block
+    clip: {fileID: 8300000, guid: 600ceea73d704b64fa36a2739891d6ea, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+  - name: Motor
+    clip: {fileID: 8300000, guid: 6a7fdf6c55e0f804b8429fb2f6747a23, type: 3}
+    volume: 0.7
+    pitch: 0.5
+    source: {fileID: 0}
+  - name: MusicInitialScreen
+    clip: {fileID: 8300000, guid: 610d85271f0e6c54f887781b35cfbd8c, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: MusicGarage1
+    clip: {fileID: 8300000, guid: d8e5d41d8bb35734cab3eeff31a4d84e, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: MusicGarage2
+    clip: {fileID: 8300000, guid: 9f5e4c2b73ad1d545804bd638e910d09, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 0c18d590fcf6ff142b65e9adb7351016, type: 3}
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+  - name: AmbienceMorningFlorest
+    clip: {fileID: 8300000, guid: 28fdea0bea25aee42921b388b698db27, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: AmbienceNightFlorest
+    clip: {fileID: 8300000, guid: 0fd64a158bc4fac4593cf9c5e7d5f013, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: AmbienceCity
+    clip: {fileID: 8300000, guid: ea9caeebaa7d92d46b383f23490c8c1b, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: MusicGarage3
+    clip: {fileID: 8300000, guid: 780981432c2258443a914c9226a572a6, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Popup
+    clip: {fileID: 8300000, guid: 04d12a2e872ceb94bb2c5bae5ab82aa1, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
